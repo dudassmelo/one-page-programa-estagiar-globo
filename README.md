@@ -10,4 +10,4 @@ O objetivo desta página é compartilhar um pouco da minha trajetória, minha tr
 
 ### 🔗 Acesse a One Page
 Você pode visualizar a página completa e interativa acessando o link abaixo:
-👉 **[link](https://dudassmelo.github.io/one-page-programa-estagiar-globo/)**
+👉 **[[link](https://dudassmelo.github.io/one-page-programa-estagiar-globo/)](https://dudassmelo.github.io/one-page-programa-estagiar-globo/)**
