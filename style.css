@@ -1,0 +1,155 @@
+:root {
+    --bg-color: #ffffff;
+    --bg-page: #f8f9fa;
+    --border-color: #d0d7de;
+    --text-main: #1f2328;
+    --text-secondary: #57606a;
+    --text-link: #0969da;
+    --accent-color: #2da44e; /* Um verde sutil para detalhes de 'sucesso' */
+    --header-bg: #ffffff;
+    --code-bg: #f6f8fa;
+    --shadow: 0 8px 24px rgba(149, 157, 165, 0.1);
+    --transition: all 0.3s ease;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-page);
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    color: var(--text-main);
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    margin: 0;
+}
+
+.readme-container {
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 12px; /* Cantos levemente mais arredondados são mais modernos */
+    max-width: 850px;
+    width: 100%;
+    padding: 60px;
+    box-shadow: var(--shadow);
+}
+
+.readme-header {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.readme-header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #d0d7de;
+    margin-bottom: 20px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: var(--transition);
+}
+
+.profile-pic:hover {
+    transform: scale(1.05);
+}
+
+.readme-header h1 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin: 0 0 10px 0;
+    letter-spacing: -0.5px;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+
+.readme-section {
+    margin-bottom: 45px;
+}
+
+.readme-section h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.readme-section p {
+    margin-bottom: 16px;
+    font-size: 1.05rem;
+}
+
+.repo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+.repo-card {
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 24px;
+    transition: var(--transition);
+    background-color: #fff;
+}
+
+.repo-card:hover {
+    border-color: var(--text-link);
+    box-shadow: 0 4px 12px rgba(9, 105, 218, 0.1);
+    transform: translateY(-2px);
+}
+
+.repo-card h3 {
+    color: var(--text-link);
+    font-size: 1.1rem;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+
+ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li strong {
+    color: var(--text-main);
+}
+
+
+@media (max-width: 768px) {
+    .readme-container {
+        padding: 30px 20px;
+    }
+    
+    .repo-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .readme-header h1 {
+        font-size: 1.8rem;
+    }
+}
