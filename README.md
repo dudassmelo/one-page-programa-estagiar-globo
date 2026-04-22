@@ -9,5 +9,4 @@ O objetivo desta página é compartilhar um pouco da minha trajetória, minha tr
 * CSS3 (Estilização responsiva, tipografia moderna e UI limpa)
 
 ### 🔗 Acesse a One Page
-Você pode visualizar a página completa e interativa acessando o link abaixo:
-👉 **[(https://dudassmelo.github.io/one-page-programa-estagiar-globo/)](https://dudassmelo.github.io/one-page-programa-estagiar-globo/)**
+👉 **[Clique aqui para acessar a minha One Page](https://dudassmelo.github.io/one-page-programa-estagiar-globo/)**
